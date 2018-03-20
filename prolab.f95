@@ -1,4 +1,4 @@
-program main
+program prolab
 implicit none
 real(kind=8)::x
 real(kind=8)::sum_, sum_2 = 0
@@ -41,4 +41,4 @@ print*,"Classe 5 da ", m + s/2," a ", m + (3*s)/2
 print*,"Classe 6 da ", m + (3*s)/2," a ", m + (5*s)/2
 print*,"Classe 7 da ", m + (5*s)/2," a ", m + (7*s)/2
 print*,"deviazione standard della media =",s/(sqrt(n))
-end
+end prolab
